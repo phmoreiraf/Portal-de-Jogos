@@ -1,0 +1,138 @@
+    /* Definições gerais - Inicio */
+    
+    html {
+        height: 100%;
+    }
+    
+    body,
+    ul,
+    li,
+    p {
+        margin: 0px;
+        padding: 0px;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    h1 {
+        font-size: 250%;
+    }
+    
+    img {
+        width: 4%;
+    }
+    
+    .menu {
+        display: flex;
+    }
+    
+    .menu li {
+        list-style: none;
+        margin-left: 20px;
+    }
+    
+    .menu input {
+        display: flex;
+        list-style: none;
+        margin-left: 680px;
+        padding: 6px;
+        border-color: black;
+        border-radius: 10px;
+    }
+    
+    .footer {
+        background: #727272;
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .header {
+        background: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .header_area {
+        padding: 20px;
+    }
+    
+    .memu_area {
+        margin-top: 30px;
+    }
+    
+    .memu_area nav a {
+        background-color: white;
+        color: black;
+        margin-bottom: 10px;
+    }
+    
+    .memu_area nav a:hover {
+        background-color: whitesmoke;
+    }
+    
+    .active {
+        background-color: gray !important;
+    }
+    
+    .logo {
+        width: 150px;
+    }
+    
+    .main .card {
+        margin-bottom: 15px;
+    }
+    
+    .main_area {
+        margin-bottom: 20px;
+    }
+    
+    .footer {
+        margin-top: 10px;
+        background: black;
+        color: white;
+    }
+    
+    .footer_area {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .modal-body img {
+        width: 100%;
+    }
+    
+    .memu_area2 {
+        margin-top: 30px;
+    }
+    
+    .memu_area2 nav a {
+        color: white;
+        margin-bottom: 10px;
+    }
+    
+    .grid_cor1 {
+        background: white;
+        padding: 20px;
+        min-height: 220px;
+        margin-bottom: 20px;
+        border: black;
+    }
+    
+    .grid_cor1 img {
+        width: 100%;
+    }
+    
+    .linha {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 10px;
+    }
+    
+    .coluna-20 {
+        width: 20%;
+    }
